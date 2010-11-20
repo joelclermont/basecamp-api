@@ -40,8 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DataTypes\Account.cs" />
     <Compile Include="DataTypes\Category.cs" />
-    <Compile Include="DataTypes\Post.cs" />
+    <Compile Include="DataTypes\AbbreviatedPost.cs" />
+    <Compile Include="DataTypes\Subscription.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
