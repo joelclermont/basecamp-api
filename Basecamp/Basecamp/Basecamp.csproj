@@ -31,11 +31,13 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Microsoft.Http">
-      <HintPath>..\..\..\..\Program Files (x86)\Microsoft WCF REST\WCF REST Starter Kit Preview 2\Assemblies\Microsoft.Http.dll</HintPath>
+    <Reference Include="Microsoft.Http, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\WCF_HTTP_Preview_1\Lib\HttpClient\Microsoft.Http.dll</HintPath>
     </Reference>
-    <Reference Include="Microsoft.Http.Extensions">
-      <HintPath>..\..\..\..\Program Files (x86)\Microsoft WCF REST\WCF REST Starter Kit Preview 2\Assemblies\Microsoft.Http.Extensions.dll</HintPath>
+    <Reference Include="Microsoft.Http.Extensions, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\WCF_HTTP_Preview_1\Lib\HttpClient\Microsoft.Http.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

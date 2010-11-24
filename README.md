@@ -4,5 +4,7 @@ View the [full API documentation](http://developer.37signals.com/basecamp/index.
 
 All data types and methods will be supported (over time).
 
-Note: I'm making use of two Microsoft DLLs from the [REST Starter Kit](http://aspnet.codeplex.com/releases/view/24644)
-Download and install it to get a copy of Microsoft.Http.dll and Microsoft.Http.Extensions.dll before building the project locally.
+Update: I'm making use of two Microsoft DLLs from the [WCF Web APIs](http://wcf.codeplex.com) HTTP Preview 1
+
+Download and unzip it at the same level as your git repo before building the project locally. 
+It contains two essential libraries: Microsoft.Http and Microsoft.Http.Extensions
