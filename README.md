@@ -8,3 +8,7 @@ Update: I'm making use of two Microsoft DLLs from the [WCF Web APIs](http://wcf.
 
 Download and unzip it at the same level as your git repo before building the project locally. 
 It contains two essential libraries: Microsoft.Http and Microsoft.Http.Extensions
+
+A sample app is provided for exercising the API and showing how to use it.
+
+Follow the instructions in app.config for putting your credentials into the sample app.
