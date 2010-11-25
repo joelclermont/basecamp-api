@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasecampClient.cs" />
     <Compile Include="DataTypes\Account.cs" />
     <Compile Include="DataTypes\Attachment.cs" />
     <Compile Include="DataTypes\Category.cs" />
